@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap');
+
+@media only screen and (max-width: 800px) {
+  nav {
+    float: none;
+  }
+  nav a {
+  	margin: 0 1em .75em 0;
+  }
+}
+
+#two_column {
+	padding: 20px;
+}
+
+#left {
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+/* Brand Name */
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+  	font-weight: bold;
+  	color: #699EBF;
+  	letter-spacing: .7px;
+  	position: relative;
+  	top: 6px;
+  	left: 30px;
+}
+
+/* Devon Beaver */
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	color: #F2D5C4;
+	text-align: left;
+	position: relative;	
+	top: -15px;
+	letter-spacing: .7px;
+}
+
+p {
+  	font-family: 'Raleway', sans-serif;
+  	font-size: 15px;
+  	font-weight: 2px;
+  	color: #BF6D65;
+  	position: relative;
+  	top: -10px;
+  	word-wrap: break-word;
+  	width: 550px;
+  	line-height: 1.5;
+  	letter-spacing: .7px;
+}
+
+
+/* Mission_Core Principles_Creator Header*/
+.h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	color: #699EBF;
+	text-align: center;
+	position: relative;
+	top: 40px
+	right: 40px;
+	word-spacing: 7px;
+	line-height: 2;
+	letter-spacing: .7px;
+}
+
+/* Mission Statement Copy*/
+#mission-statment {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+  	font-weight: 2px;
+  	color: #BF6D65;
+  	position: relative;
+  	top: -10px;
+  	max-width: 100%;
+  	line-height: 1.5;
+  	letter-spacing: .7px;
+}
+
+#nav {
+	text-align: center;
+	word-spacing: 8em;
+}
+
+
+ul li {
+	content: "\2022";
+	color: #F2D5C4;
+	font-weight: bold;
+	display: inline-block;
+	width: 6em;
+	margin-left: 0em;
+	text-align: center;
+}
+
+	/* Core Principle Copy*/
+li {
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: #BF6D65;
+	position: relative;
+	top: -5px;
+	line-height: 1.6;
+	letter-spacing: .7px;
+	letter-spacing: .7px;
+}
+
+.meet_the_creator {
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	color: #699EBF;
+	font-weight: bold;
+	word-spacing: 7px;
+	letter-spacing: .7px;
+	text-align: left;
+}
+
+#slogan {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: #699EBF;
+	font-style: italic;
+	position: relative;
+	letter-spacing: .7px;	
+}
+
+
+/* Hero Image Text Overlay*/
+.text-block {
+	position: absolute;
+	float: left;
+	top: 31em;
+	left: 3em;
+	background-color: white;
+	color: white;
+	padding: 1em;
+	opacity: .8;
+}
+
+/* IMAGES*/
+.hero {
+	background-image: url(../images/Homepage.jpg);
+	padding: 400px;
+	max-width: 100%
+	height: auto;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#images {
+	width: 33.33%;
+	padding: 1%;
+	margin: 0.1%;
+	float: left;
+}
+
+.image_1 {
+	height: 15em;
+	padding: .5em;
+}
+
+.image_2 {
+	height: 15em;
+	padding: .5em;
+    float: center;	
+}
+
+.image_3 {
+	height: 15em;
+	padding: .5em;
+    float: right;	
+}
+
+.image_4 {
+	height: 15em;
+	padding: .5em;
+    float: right;	
+}
+
+
+
+
